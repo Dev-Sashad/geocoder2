@@ -1,16 +1,15 @@
 name: geocoder2
 description: Forward and reverse geocoding is Easy Now.
-version: 1.4.0
+version: 1.5.0
 homepage: https://github.com/codeking5/geocoder2
 
 environment:
-  sdk: ">=2.15.0 <3.0.0"
-  flutter: ">=1.17.0"
+  sdk: '>=3.4.3 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  http: ^0.13.4
+  http: ^1.2.2
 
 dev_dependencies:
   flutter_test:
@@ -22,7 +21,7 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
-
+  uses-material-design: true
   # To add assets to your package, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
